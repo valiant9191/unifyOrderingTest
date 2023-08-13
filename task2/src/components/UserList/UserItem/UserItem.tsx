@@ -22,7 +22,7 @@ const UserItem: React.FC<IProps> = ({ id, person, status, email }: IProps) => {
                 <ShevronBlack />
             </>
             {email && <div className="user-list__item-email">
-                <p className="user-list__item-name">email</p>
+                <p className="user-list__item-name">{email}</p>
             </div>}
 
 

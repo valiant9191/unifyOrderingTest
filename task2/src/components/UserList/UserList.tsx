@@ -27,6 +27,7 @@ const UserList: React.FC<UserListProps> = ({ admin, standarts }: UserListProps) 
                         if ('user' in person) {
                             return (
                                 <UserItem
+                                    key={nanoid()}
                                     id={nanoid()}
                                     person={`${person.user.name} ${person.user.lastName}`}
                                     status={person.status}
@@ -36,6 +37,7 @@ const UserList: React.FC<UserListProps> = ({ admin, standarts }: UserListProps) 
                         } else {
                             return (
                                 <UserItem
+                                    key={nanoid()}
                                     id={nanoid()}
                                     person={person.phone}
                                 />
@@ -57,6 +59,7 @@ const UserList: React.FC<UserListProps> = ({ admin, standarts }: UserListProps) 
                         if ('user' in person) {
                             return (
                                 <UserItem
+                                    key={nanoid()}
                                     id={nanoid()}
                                     person={`${person.user.name} ${person.user.lastName}`}
                                     status={person.status}
@@ -66,6 +69,7 @@ const UserList: React.FC<UserListProps> = ({ admin, standarts }: UserListProps) 
                         } else {
                             return (
                                 <UserItem
+                                    key={nanoid()}
                                     id={nanoid()}
                                     person={person.phone}
                                 />
