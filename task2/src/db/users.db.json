@@ -1,0 +1,74 @@
+[
+  {
+    "id":1,
+    "status":"approved",
+    "role": "Administrator",
+    "user":{
+      "id": 101,
+      "name": "John",
+      "lastName": "Smth",
+      "phone": "111-111-111",
+      "email": "john@example.com"
+    }
+  },
+  {
+    "id":2,
+    "status":"request",
+    "user":{
+      "id": 102,
+      "name": "Jane",
+      "lastName": "Another",
+      "phone": "222-222-222",
+      "email": "jane@example.com"
+    },
+    "role": "Standard"
+  },
+  {
+    "id":3,
+    "status":"pending",
+    "user":{
+    "id": 103,
+    "name": "Jack",
+    "lastName": "Another2",
+    "phone": "333-333-333",
+    "email": "jack@example.com"
+  },
+    "role": "Standard"
+  },
+  {
+    "id":4,
+    "status":"declined",
+    "user":{
+    "id": 104,
+    "name": "Sam",
+    "lastName": "Another3",
+    "phone": "444-444-444",
+    "email": "Sam@example.com"
+  },
+    "role": "Administrator"
+  },
+  {
+    "id":5,
+    "status":"invited",
+    "user":{
+    "id": 105,
+    "name": "Serious",
+    "lastName": "Sam4",
+    "phone": "555-555-555",
+    "email": "SeriousSam4@example.com"
+  },
+    "role": "Standard"
+  },
+  {
+    "id":6,
+    "status":"approved",
+    "user":{
+    "id": 106,
+    "name": "Jack",
+    "lastName": "Hummer",
+    "phone": "666-666-666",
+    "email": "Hummer@example.com"
+  },
+    "role": "Standard"
+  }
+]

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: $fontColorPrimary;
+    @include fontProperties;
+}
+
+
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $bgColorLightMain;
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 15px 16px 0 16px;
+    }
+}

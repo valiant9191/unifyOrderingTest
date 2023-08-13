@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "phone": "111-111-111",
+      "role": "Administrator"
+    },
+    {
+      "id": 2,
+      "phone": "222-222-222",
+      "role": "Standard"
+    },
+    {
+      "id": 3,
+      "phone": "333-333-333",
+      "role": "Standard"
+    },
+    {
+        "id": 4,
+        "phone": "444-444-444",
+        "role": "Standard"
+      },
+      {
+        "id": 5,
+        "phone": "555-555-555",
+        "role": "Administrator"
+      },
+      {
+        "id": 6,
+        "phone": "666-666-666",
+        "role": "Standard"
+      }
+  ]
